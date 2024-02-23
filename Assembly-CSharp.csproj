@@ -45,15 +45,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Extension\UIAutoBindTool\Runtime\UIBinder.cs" />
-     <Compile Include="Assets\Extension\UIAutoBindTool\Runtime\BinderRuler.cs" />
-     <Compile Include="Assets\Extension\UIAutoBindTool\Runtime\BindData.cs" />
+     <Compile Include="Assets\Extension\UIBinder\Example\TestWindow.BindComponents.cs" />
+     <Compile Include="Assets\Extension\UIBinder\Runtime\UIBinder.cs" />
+     <Compile Include="Assets\Extension\UIBinder\Runtime\BindData.cs" />
+     <Compile Include="Assets\Extension\UIBinder\Example\TestWindow.cs" />
+     <Compile Include="Assets\Extension\UIBinder\Runtime\BinderRuler.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Extension" />
      <Folder Include="Assets\Scenes" />
-     <Folder Include="Assets\Extension\UIAutoBindTool\Runtime" />
-     <Folder Include="Assets\Extension\UIAutoBindTool" />
+     <Folder Include="Assets\Extension\UIBinder\Runtime" />
+     <Folder Include="Assets\Extension\UIBinder" />
      <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Extension\UIBinder\Example" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

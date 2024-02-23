@@ -10,6 +10,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +28,7 @@ namespace Rabi
             {"_img", typeof(Image)},
             {"_rImg", typeof(RawImage)},
             {"_txt", typeof(Text)},
+            {"_mp", typeof(TextMeshProUGUI)},
         };
 
         /// <summary>
