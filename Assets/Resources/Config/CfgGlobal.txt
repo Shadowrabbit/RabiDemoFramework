@@ -1,0 +1,9 @@
+key|DefName|Annotate|Value
+key|枚举名称|注释|值
+string|string|string|string
+DeckCardCountLimit|None|卡组上限|20
+InitHandCount|None|初始手牌数量|3
+MaxHandCount|None|最大手牌数量|7
+HeroMaxDeckCount|None|英雄拥有的最大卡组数量|9
+DefaultDeckName|None|默认卡组名|DefaultDeck
+EmptyDeckName|None|空卡组名|空卡组

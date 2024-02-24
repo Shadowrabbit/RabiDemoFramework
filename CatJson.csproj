@@ -47,58 +47,58 @@
   <ItemGroup>
      <Compile Include="Assets\Extensions\CatJson\Lexer\JsonLexer.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Other\JsonObjectFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\DecimalFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Attributes\JsonCareDefaultValueAttribute.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\ByteFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\BooleanFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\MetaData\TypeMetaData.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Misc\TypeUtil.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Hash128Formatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\JsonParser.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\DoubleFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\PolymorphicFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Vector2Formatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\JsonObject\ValueType.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\QuaternionFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Misc\ParserHelper.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\CharFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Collections\DictionaryFormatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\UInt16Formatter.cs" />
-     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\ColorFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Other\RuntimeTypeFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\JsonObject\JsonValue.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Collections\ArrayFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\ReflectionFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\NullFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\DecimalFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Attributes\JsonCareDefaultValueAttribute.cs" />
      <Compile Include="Assets\Extensions\CatJson\JsonObject\JsonObject.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\ByteFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Attributes\JsonIgnoreAttribute.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\UInt64Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\BooleanFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\BoundsFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Vector3Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\MetaData\TypeMetaData.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\EnumFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Misc\ILRuntimeHelper.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Vector4Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Misc\TypeUtil.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Hash128Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\JsonParser.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\Int16Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\DoubleFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\KeyFrameFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\PolymorphicFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\Vector2Formatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\UInt32Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\JsonObject\ValueType.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\StringFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Other\JsonValueFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\SingleFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Base\BaseJsonFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Misc\Extensions.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\RectFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\QuaternionFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Misc\ParserHelper.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\CharFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Lexer\TokenType.cs" />
      <Compile Include="Assets\Extensions\CatJson\Misc\IJsonParserCallbackReceiver.cs" />
      <Compile Include="Assets\Extensions\CatJson\Lexer\RangeString.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\Int32Formatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Misc\TextUtil.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\Int64Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Collections\DictionaryFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\MetaData\TypeMetaDataManager.cs" />
      <Compile Include="Assets\Extensions\CatJson\Attributes\JsonKeyAttribute.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Other\DateTimeFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Base\IJsonFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Collections\ListFormatter.cs" />
      <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\SByteFormatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Primitives\UInt16Formatter.cs" />
+     <Compile Include="Assets\Extensions\CatJson\Formatter\Unity\ColorFormatter.cs" />
      <Folder Include="Assets\Extensions\CatJson\Formatter\Primitives" />
      <Folder Include="Assets\Extensions\CatJson\Lexer" />
      <None Include="Assets\Extensions\CatJson\CatJson.asmdef" />
@@ -371,55 +371,52 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\DOTween\DOTween.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -797,10 +794,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

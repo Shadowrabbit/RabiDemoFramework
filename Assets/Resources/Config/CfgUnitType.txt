@@ -1,0 +1,10 @@
+key|Annotate|DefName|AttackRangeSearcher
+key|注释|枚举名称|攻击范围搜索器
+string|string|string|string
+Elephant|象|None|Diamond
+Advisor|士|None|Diamond
+Cannon|炮|None|None
+Chariot|车|None|Straight
+General|将|None|Square
+Horse|马|None|Diamond
+Soldier|卒|None|Diamond

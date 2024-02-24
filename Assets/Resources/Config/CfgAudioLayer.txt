@@ -1,0 +1,7 @@
+key|Annotate|DefName|NeedOverlay|NeedLoop
+key|注释|枚举名称|需要叠加|需要循环
+string|string|string|bool|bool
+Music|背景音|None|False|True
+Ambient|环境音|None|False|False
+Voice|语音|None|False|False
+Sound|音效|None|True|False

@@ -1,0 +1,7 @@
+key|Annotate|DefName|Path|Layer
+key|注释|枚举名称|资源路径|音效层级
+string|string|string|string|string
+TestMusic|测试背景音|None|Assets/AddressableAssets/Audio/Bgm/Test/TestBgm.mp3|Music
+TestAmbient|测试环境音|None|Assets/AddressableAssets/Audio/AudioEffect/Test/TestSound.mp3|Ambient
+TestVoice|测试语音|None|Assets/AddressableAssets/Audio/AudioEffect/Test/TestSound.mp3|Voice
+TestSound|测试音效|None|Assets/AddressableAssets/Audio/AudioEffect/Test/TestSound.mp3|Sound
