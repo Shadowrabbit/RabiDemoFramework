@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4d4478c9-396a-d716-3b35-6ab6b8f89093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatJson", "CatJson.csproj", "{db42c575-70d0-cb6d-ed82-bef9e1e21088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTween.Modules", "DOTween.Modules.csproj", "{d132fca1-de6a-12a5-02b5-92b9c6471421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{9c8db6bb-6423-a414-a37f-62a01745258f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{95de6909-9e68-6f14-dda3-1fafeeff10b4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{59266657-403c-5f2d-4b36-0b5326e08aca}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{f7b270bb-d6f3-c920-439d-d3876a3953d4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +22,18 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4d4478c9-396a-d716-3b35-6ab6b8f89093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4d4478c9-396a-d716-3b35-6ab6b8f89093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db42c575-70d0-cb6d-ed82-bef9e1e21088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db42c575-70d0-cb6d-ed82-bef9e1e21088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d132fca1-de6a-12a5-02b5-92b9c6471421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d132fca1-de6a-12a5-02b5-92b9c6471421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9c8db6bb-6423-a414-a37f-62a01745258f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9c8db6bb-6423-a414-a37f-62a01745258f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95de6909-9e68-6f14-dda3-1fafeeff10b4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95de6909-9e68-6f14-dda3-1fafeeff10b4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59266657-403c-5f2d-4b36-0b5326e08aca}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59266657-403c-5f2d-4b36-0b5326e08aca}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f7b270bb-d6f3-c920-439d-d3876a3953d4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f7b270bb-d6f3-c920-439d-d3876a3953d4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
