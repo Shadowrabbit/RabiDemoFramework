@@ -11,8 +11,8 @@ namespace Rabi
 {
     public static class MapDef
     {
-        public const int MapWidth = 8;
-        public const int MapHeright = 9;
+        public const int MapWidth = 9;
+        public const int MapHeright = 10;
         public const string MoveCursorPath = "Assets/Resources/Battle/TargetPoint.prefab";
     }
 }

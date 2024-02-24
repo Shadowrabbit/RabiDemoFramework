@@ -11,12 +11,19 @@ namespace Rabi
 {
     public static class DefUnitType
     {
-        public static readonly string DElephant = "Elephant";  //象
-        public static readonly string DAdvisor = "Advisor";  //士
-        public static readonly string DCannon = "Cannon";  //炮
-        public static readonly string DChariot = "Chariot";  //车
-        public static readonly string DGeneral = "General";  //将
-        public static readonly string DHorse = "Horse";  //马
-        public static readonly string DSoldier = "Soldier";  //卒
+        public static readonly string DRedElephant = "RedElephant";  //象
+        public static readonly string DRedAdvisor = "RedAdvisor";  //士
+        public static readonly string DRedCannon = "RedCannon";  //炮
+        public static readonly string DRedChariot = "RedChariot";  //车
+        public static readonly string DRedGeneral = "RedGeneral";  //将
+        public static readonly string DRedHorse = "RedHorse";  //马
+        public static readonly string DRedSoldier = "RedSoldier";  //卒
+        public static readonly string DBlackElephant = "BlackElephant";  //象
+        public static readonly string DBlackAdvisor = "BlackAdvisor";  //士
+        public static readonly string DBlackCannon = "BlackCannon";  //炮
+        public static readonly string DBlackChariot = "BlackChariot";  //车
+        public static readonly string DBlackGeneral = "BlackGeneral";  //将
+        public static readonly string DBlackHorse = "BlackHorse";  //马
+        public static readonly string DBlackSoldier = "BlackSoldier";  //卒
     }
 }

@@ -181,7 +181,7 @@ namespace Rabi
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static Vector3Int ToVector3Int(string str)
+        public static Vector3Int ToVector3int(string str)
         {
             if (str == null)
             {
@@ -193,7 +193,7 @@ namespace Rabi
                 return Vector3Int.zero;
             }
 
-            var vecStr = str.Split('|');
+            var vecStr = str.Split('-');
             if (vecStr.Length == 3) return new Vector3Int(ToInt(vecStr[0]), ToInt(vecStr[1]), ToInt(vecStr[2]));
             Logger.Error($"无法识别Vector3Int str:{str}");
             return Vector3Int.zero;

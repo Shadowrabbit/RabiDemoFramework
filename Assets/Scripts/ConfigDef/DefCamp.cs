@@ -11,8 +11,7 @@ namespace Rabi
 {
     public static class DefCamp
     {
-        public static readonly string DPlayer = "Player";  //玩家
-        public static readonly string DEnemy = "Enemy";  //敌方
-        public static readonly string DNone = "None";  //无
+        public static readonly string DRed = "Red";  //玩家
+        public static readonly string DBlack = "Black";  //敌方
     }
 }

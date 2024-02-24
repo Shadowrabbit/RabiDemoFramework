@@ -19,7 +19,7 @@ namespace Rabi
         public string key; //key
         public string annotate; //注释
         public string defName; //枚举名称
-        public string attackRangeSearcher; //攻击范围搜索器
+        public string modelPath; //模型路径
     }
 
     public class CfgUnitType
@@ -83,7 +83,7 @@ namespace Rabi
             data.key = CsvUtility.ToString(rowHelper.ReadNextCol()); //key
             data.annotate = CsvUtility.ToString(rowHelper.ReadNextCol()); //注释
             data.defName = CsvUtility.ToString(rowHelper.ReadNextCol()); //枚举名称
-            data.attackRangeSearcher = CsvUtility.ToString(rowHelper.ReadNextCol()); //攻击范围搜索器
+            data.modelPath = CsvUtility.ToString(rowHelper.ReadNextCol()); //模型路径
             return data;
         }
     }

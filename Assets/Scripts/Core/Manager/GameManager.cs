@@ -15,12 +15,15 @@ namespace Rabi
 {
     public class GameManager : BaseMonoSingleTon<GameManager>
     {
+        [SerializeField] private Camera mainCamera;
+        [SerializeField] private Camera uiCamera;
         [SerializeField] [LabelText("正式流程")] private bool autoStart;
 
         private readonly List<IMonoManager> _managerList = new List<IMonoManager>(); //管理器列表
         //private static GamePrucedureController _fsm; //游戏流程状态机
 
-        private void Awake()
+
+        protected void Awake()
         {
             _managerList.Add(AssetManager.Instance);
             _managerList.Add(ObjectPoolManager.Instance);
@@ -33,7 +36,7 @@ namespace Rabi
             }
         }
 
-        private void Start()
+        protected void Start()
         {
             DontDestroyOnLoad(this);
             UIManager.Instance.Init();
@@ -46,7 +49,7 @@ namespace Rabi
             }
         }
 
-        private void Update()
+        protected void Update()
         {
             foreach (var manager in _managerList)
             {
@@ -54,7 +57,7 @@ namespace Rabi
             }
         }
 
-        private void FixedUpdate()
+        protected void FixedUpdate()
         {
             foreach (var manager in _managerList)
             {
@@ -62,7 +65,7 @@ namespace Rabi
             }
         }
 
-        private void LateUpdate()
+        protected void LateUpdate()
         {
             foreach (var manager in _managerList)
             {
@@ -70,12 +73,22 @@ namespace Rabi
             }
         }
 
-        private void OnDestroy()
+        protected void OnDestroy()
         {
             for (var i = _managerList.Count - 1; i >= 0; i--)
             {
                 _managerList[i].OnClear();
             }
+        }
+
+        public Camera GetUICamera()
+        {
+            return uiCamera;
+        }
+
+        public Camera GetMainCamera()
+        {
+            return mainCamera;
         }
 
         /// <summary>

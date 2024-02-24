@@ -12,5 +12,16 @@ namespace Rabi
     public class UnitInfo
     {
         public string unitType;
+        public string camp;
+
+        public UnitInfo()
+        {
+        }
+
+        public UnitInfo(string unitType, string camp)
+        {
+            this.unitType = unitType;
+            this.camp = camp;
+        }
     }
 }

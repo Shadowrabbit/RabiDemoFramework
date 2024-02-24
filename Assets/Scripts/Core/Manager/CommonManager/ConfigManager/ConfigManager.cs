@@ -15,6 +15,7 @@ namespace Rabi
         public readonly CfgAudioLayer cfgAudioLayer = new CfgAudioLayer();
         public readonly CfgCamp cfgCamp = new CfgCamp();
         public readonly CfgGlobal cfgGlobal = new CfgGlobal();
+        public readonly CfgLevel cfgLevel = new CfgLevel();
         public readonly CfgUnitType cfgUnitType = new CfgUnitType();
 
         public ConfigManager()
@@ -33,6 +34,7 @@ namespace Rabi
             cfgAudioLayer.Load();
             cfgCamp.Load();
             cfgGlobal.Load();
+            cfgLevel.Load();
             cfgUnitType.Load();
         }
     }}

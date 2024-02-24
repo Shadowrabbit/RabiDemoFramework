@@ -298,6 +298,7 @@
             <e p="CfgAudioLayer.txt" t="Include" />
             <e p="CfgCamp.txt" t="Include" />
             <e p="CfgGlobal.txt" t="Include" />
+            <e p="CfgLevel.txt" t="Include" />
             <e p="CfgUnitType.txt" t="Include" />
           </e>
           <e p="Shader" t="Include">
@@ -328,6 +329,7 @@
             <e p="CfgAudioLayer.cs" t="Include" />
             <e p="CfgCamp.cs" t="Include" />
             <e p="CfgGlobal.cs" t="Include" />
+            <e p="CfgLevel.cs" t="Include" />
             <e p="CfgUnitType.cs" t="Include" />
           </e>
           <e p="ConfigDef" t="Include">
@@ -335,6 +337,7 @@
             <e p="DefAudioLayer.cs" t="Include" />
             <e p="DefCamp.cs" t="Include" />
             <e p="DefGlobal.cs" t="Include" />
+            <e p="DefLevel.cs" t="Include" />
             <e p="DefUnitType.cs" t="Include" />
           </e>
           <e p="Core" t="Include">

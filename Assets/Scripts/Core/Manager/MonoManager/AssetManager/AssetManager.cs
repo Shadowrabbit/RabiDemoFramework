@@ -8,6 +8,7 @@
 // ******************************************************************
 
 using System;
+using System.IO;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -50,7 +51,9 @@ namespace Rabi
                 return null;
             }
 
-            return Resources.Load<T>(path);
+            var index = path.IndexOf('.');
+            var newPath = path.Substring(0, index);
+            return Resources.Load<T>(newPath.Replace("Assets/Resources/", ""));
         }
 
         /// <summary>

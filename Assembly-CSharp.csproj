@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\Core\Base\SingleTon\BaseMonoSingleTon.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\TextStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\Receiver\Runtime\LongPressReceiver.cs" />
+     <Compile Include="Assets\Scripts\Config\CfgLevel.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\EffectColorMode.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\SpriteStateNode.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\ListEx.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Scripts\Battle\MapManager\GridInfo.cs" />
      <Compile Include="Assets\Extensions\UI\StaticListView\Runtime\StaticListView.cs" />
      <Compile Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime\DialogScreenPositionFix.cs" />
+     <Compile Include="Assets\Scripts\ConfigDef\DefLevel.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\GameObjectEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgCamp.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Fsm\GamePrucedureController.cs" />
@@ -200,6 +202,7 @@
      <Folder Include="Assets\Scripts\Core\Manager\CommonManager" />
      <Folder Include="Assets\Extensions\UI\NodeStateController" />
      <None Include="Assets\Resources\Shader\UIEffect.shader" />
+     <None Include="Assets\Resources\Config\CfgLevel.txt" />
      <Folder Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState" />
      <Folder Include="Assets\Scripts\ConfigDef" />
      <Folder Include="C:\Users\ausu\AppData\Local\Temp\51sz4qjt.hrn\SceneTemplates\InMemory" />

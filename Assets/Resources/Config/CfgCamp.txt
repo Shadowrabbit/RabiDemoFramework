@@ -1,6 +1,5 @@
 key|Annotate|DefName
 key|注释|枚举名称
 string|string|string
-Player|玩家|None
-Enemy|敌方|None
-None|无|None
+Red|玩家|None
+Black|敌方|None
