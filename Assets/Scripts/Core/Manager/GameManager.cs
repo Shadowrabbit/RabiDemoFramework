@@ -10,7 +10,6 @@
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Rabi
 {
@@ -24,13 +23,10 @@ namespace Rabi
         private void Awake()
         {
             _managerList.Add(AssetManager.Instance);
-            //_managerList.Add(SceneManager.Instance);
             _managerList.Add(ObjectPoolManager.Instance);
             _managerList.Add(FsmManager.Instance);
-            // _managerList.Add(LuaManager.Instance);
-            //_managerList.Add(AudioManager.Instance);
+            _managerList.Add(AudioManager.Instance);
             _managerList.Add(InputManager.Instance);
-            // _managerList.Add(ActionManager.Instance);
             foreach (var manager in _managerList)
             {
                 manager.OnInit();

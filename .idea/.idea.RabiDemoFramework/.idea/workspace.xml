@@ -2,56 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d03e1bed-eb01-4b4a-822a-1b4772c90531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/BattleMapDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/BattleMapDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Asset/UICompConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Asset/UICompConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Editor/Generator/UICompGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Editor/Generator/UICompGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UIBinder/Editor/UIBinderInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UIBinder/Editor/UIBinderInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UIBinder/UIBinderGlobalSetting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UIBinder/UIBinderGlobalSetting.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackAdvisor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackAdvisor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackCannon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackCannon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackChariot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackChariot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackElephant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackElephant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackGeneral.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackGeneral.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackHorse.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackHorse.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackSoldier.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackSoldier.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedAdvisor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedAdvisor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedCannon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedCannon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedChariot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedChariot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedElephant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedElephant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedGeneral.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedGeneral.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedHorse.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedHorse.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedSoldier.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedSoldier.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/TargetPoint.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/TargetPoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/back_elephant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/back_elephant.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black-advisor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black-advisor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black_cannon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black_cannon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black_chariot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black_chariot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black_general.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black_general.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black_horse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black_horse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/black_soldier.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/black_soldier.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_advisor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_advisor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_cannon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_cannon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_chariot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_chariot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_elephant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_elephant.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_general.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_general.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_horse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_horse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/red_soldier.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/red_soldier.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/white_circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/white_circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackAdvisor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackAdvisor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackCannon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackCannon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackChariot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackChariot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackElephant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackElephant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackGeneral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackGeneral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackHorse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackHorse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackSoldier.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/BlackSoldier.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedAdvisor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedAdvisor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedCannon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedCannon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedChariot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedChariot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedElephant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedElephant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedGeneral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedGeneral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedHorse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedHorse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedSoldier.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/RedSoldier.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/TargetPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/Prefab/TargetPoint.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +102,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AudioManager/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.BindComponents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/900DC5CA-37FE-4089-8476-5DCCF7E242DE/8e/dfc60f05/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,7 +123,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AudioManager/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/BattleManager/BattleManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/BattleMapDrawer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2cnzsgjEV9tKfSquIbEcVamp4fb" />
@@ -144,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708762343937</updated>
-      <workItem from="1708762364871" duration="7196000" />
+      <workItem from="1708762364871" duration="11333000" />
     </task>
     <servers />
   </component>

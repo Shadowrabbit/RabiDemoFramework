@@ -45,9 +45,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Battle\MapManager\MapManager.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefAudioLayer.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\UIMaterialEffect.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\CharacterControllerEx.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleManager\Unit.cs" />
      <Compile Include="Assets\Scripts\UI\MainWindow.BindComponents.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\InputManager\InputManager.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\CameraEx.cs" />
@@ -56,6 +58,7 @@
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\ActiveStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\ListView\Runtime\ListView.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\SaveManager\SaveUtil.cs" />
+     <Compile Include="Assets\Scripts\Battle\MapManager\BattleMapDrawer.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureMainMenu.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\BaseStateNode.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefUnitType.cs" />
@@ -78,12 +81,12 @@
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureChangeScene.cs" />
      <Compile Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime\DialogScreenPositionFixPreview.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Base\BaseGamePrucedure.cs" />
-     <Compile Include="Assets\Scripts\Core\Manager\CommonManager\UIManager\UIManager.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\FsmManager.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\EffectPropertyID.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\UIStateController.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\TransformEx.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\DotNetEx.cs" />
+     <Compile Include="Assets\Scripts\Battle\MapManager\GridInfo.cs" />
      <Compile Include="Assets\Extensions\UI\StaticListView\Runtime\StaticListView.cs" />
      <Compile Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime\DialogScreenPositionFix.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\GameObjectEx.cs" />
@@ -91,8 +94,11 @@
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Fsm\GamePrucedureController.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefGlobal.cs" />
      <Compile Include="Assets\Scripts\Core\Base\RefPool\IPoolRef.cs" />
+     <Compile Include="Assets\Scripts\Battle\MapManager\MapInfo.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefCamp.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\TextureStateNode.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\AudioManager\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleManager\BattleManager.cs" />
      <Compile Include="Assets\Scripts\Config\CfgAudio.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureBattleSlg.cs" />
      <Compile Include="Assets\Scripts\Core\Base\Thing.cs" />
@@ -105,6 +111,7 @@
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\GrayStateNode.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\AssetManagerEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgAudioLayer.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleManager\UnitInfo.cs" />
      <Compile Include="Assets\Scripts\Core\Base\CompData.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\UnityExtensions.cs" />
      <Compile Include="Assets\Extensions\UI\BorderPreview\BorderPreview.cs" />
@@ -122,6 +129,7 @@
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\CombinationStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\MeshProColorStateNode.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Fsm\IFsmState.cs" />
+     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Example\TestWindow.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Runtime\UIBinder.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\EventManager\EventId.cs" />
@@ -131,6 +139,7 @@
      <Compile Include="Assets\Scripts\UI\ModeSelectWindow.cs" />
      <Compile Include="Assets\Scripts\Core\Base\RefPool\RefPool.cs" />
      <Compile Include="Assets\Extensions\Misc\Runtime\ImageEx.cs" />
+     <Compile Include="Assets\Scripts\Battle\MapManager\MapDef.cs" />
      <Compile Include="Assets\Scripts\Core\Base\Logger.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Runtime\BindData.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\ColorStateNode.cs" />
@@ -146,8 +155,10 @@
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureStart.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Core\Manager\MonoManager\InputManager" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\AudioManager" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager" />
+     <Folder Include="Assets\Scripts\Battle" />
      <Folder Include="Assets\Settings" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Config\CfgGlobal.txt" />
@@ -213,9 +224,9 @@
      <Folder Include="Assets\Extensions\UI\GrayComp" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Extensions\UIBinder\Example" />
+     <Folder Include="Assets\Scripts\Battle\BattleManager" />
      <Folder Include="Assets\Extensions\Misc\Runtime" />
      <Folder Include="Assets\Extensions\UI\Receiver\Runtime" />
-     <Folder Include="Assets\Resources\Battle\Prefab" />
      <None Include="Assets\Resources\Config\CfgAudio.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Scripts\Core\Manager\CommonManager\EventManager" />
@@ -224,10 +235,10 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <None Include="Assets\Extensions\Sirenix\Readme.txt" />
+     <Folder Include="Assets\Scripts\Battle\MapManager" />
      <None Include="Assets\Resources\Config\CfgCamp.txt" />
      <Folder Include="Assets\Resources\UI\Example" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
-     <Folder Include="Assets\Scripts\Core\Manager\CommonManager\UIManager" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Scripts\Core\Base\SingleTon" />
      <Folder Include="Assets\Extensions\UI\NodeStateController\Runtime" />

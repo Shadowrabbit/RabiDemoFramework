@@ -292,9 +292,7 @@
         </e>
         <e p="Resources" t="Include">
           <e p="Atlas" t="Include" />
-          <e p="Battle" t="Include">
-            <e p="Prefab" t="Include" />
-          </e>
+          <e p="Battle" t="Include" />
           <e p="Config" t="Include">
             <e p="CfgAudio.txt" t="Include" />
             <e p="CfgAudioLayer.txt" t="Include" />
@@ -311,6 +309,20 @@
         </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Battle" t="Include">
+            <e p="BattleManager" t="Include">
+              <e p="BattleManager.cs" t="Include" />
+              <e p="Unit.cs" t="Include" />
+              <e p="UnitInfo.cs" t="Include" />
+            </e>
+            <e p="MapManager" t="Include">
+              <e p="BattleMapDrawer.cs" t="Include" />
+              <e p="GridInfo.cs" t="Include" />
+              <e p="MapDef.cs" t="Include" />
+              <e p="MapInfo.cs" t="Include" />
+              <e p="MapManager.cs" t="Include" />
+            </e>
+          </e>
           <e p="Config" t="Include">
             <e p="CfgAudio.cs" t="Include" />
             <e p="CfgAudioLayer.cs" t="Include" />
@@ -361,14 +373,14 @@
                   <e p="SaveManager.cs" t="Include" />
                   <e p="SaveUtil.cs" t="Include" />
                 </e>
-                <e p="UIManager" t="Include">
-                  <e p="UIManager.cs" t="Include" />
-                </e>
               </e>
               <e p="GameManager.cs" t="Include" />
               <e p="MonoManager" t="Include">
                 <e p="AssetManager" t="Include">
                   <e p="AssetManager.cs" t="Include" />
+                </e>
+                <e p="AudioManager" t="Include">
+                  <e p="AudioManager.cs" t="Include" />
                 </e>
                 <e p="FsmManager" t="Include">
                   <e p="Def" t="Include">
@@ -413,6 +425,7 @@
             <e p="MainWindow.cs" t="Include" />
             <e p="ModeSelectWindow.BindComponents.cs" t="Include" />
             <e p="ModeSelectWindow.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
         </e>
         <e p="Settings" t="Include" />
