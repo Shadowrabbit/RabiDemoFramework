@@ -19,87 +19,66 @@ namespace Rabi
             Selection.activeGameObject = go;
         }
 
-		[MenuItem("GameObject/拉比UI/Btn", false, 0)]
+		[MenuItem("GameObject/拉比UI/Button", false, 0)]
 		private static void CreateButton(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/Button.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/Button.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
 		[MenuItem("GameObject/拉比UI/EmptyButton", false, 0)]
 		private static void CreateEmptyButton(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/EmptyButton.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/EmptyButton.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/LvHorizontal", false, 0)]
+		[MenuItem("GameObject/拉比UI/HListview", false, 0)]
 		private static void CreateHorizontalListView(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/HorizontalListView.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/HorizontalListView.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/SlvHorizontal", false, 0)]
+		[MenuItem("GameObject/拉比UI/HStaticListView", false, 0)]
 		private static void CreateHorizontalStaticListView(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/HorizontalStaticListView.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/HorizontalStaticListView.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/Img", false, 0)]
+		[MenuItem("GameObject/拉比UI/Image", false, 0)]
 		private static void CreateImage(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/Image.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/Image.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/TransImg", false, 0)]
-		private static void CreateTransImage(MenuCommand menuCommand)
-		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/TransImage.prefab");
-			CreateInstance(prefab, menuCommand);
-		}
-
-		[MenuItem("GameObject/拉比UI/TransTxt", false, 0)]
-		private static void CreateTransText(MenuCommand menuCommand)
-		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/TransText.prefab");
-			CreateInstance(prefab, menuCommand);
-		}
-
-		[MenuItem("GameObject/拉比UI/LvVertical", false, 0)]
+		[MenuItem("GameObject/拉比UI/VListview", false, 0)]
 		private static void CreateVerticalListView(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/VerticalListView.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/VerticalListView.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/SlvVertical", false, 0)]
+		[MenuItem("GameObject/拉比UI/VStaticListView", false, 0)]
 		private static void CreateVerticalStaticListView(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/VerticalStaticListView.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/VerticalStaticListView.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 
-		[MenuItem("GameObject/拉比UI/TransMp", false, 0)]
-		private static void CreateTransMeshPro(MenuCommand menuCommand)
-		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/TransMeshPro.prefab");
-			CreateInstance(prefab, menuCommand);
-		}
-
-		[MenuItem("GameObject/拉比UI/PlotMp", false, 0)]
-		private static void CreatePlotMeshPro(MenuCommand menuCommand)
-		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/PlotMeshPro.prefab");
-			CreateInstance(prefab, menuCommand);
-		}
-
-		[MenuItem("GameObject/拉比UI/Sc", false, 0)]
+		[MenuItem("GameObject/拉比UI/StateController", false, 0)]
 		private static void CreateStateController(MenuCommand menuCommand)
 		{
-			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/AddressableAssets/MixUI/Example/StateController.prefab");
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/StateController.prefab");
+			CreateInstance(prefab, menuCommand);
+		}
+
+		[MenuItem("GameObject/拉比UI/Text", false, 0)]
+		private static void CreateText(MenuCommand menuCommand)
+		{
+			var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/UI/Example/Text.prefab");
 			CreateInstance(prefab, menuCommand);
 		}
 	}

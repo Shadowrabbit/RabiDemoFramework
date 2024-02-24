@@ -14,14 +14,15 @@ namespace Rabi
         public override void OnEnter(params object[] args)
         {
             base.OnEnter(args);
-            EventManager.Instance.AddListener(EventId.OnLogoComplete, OnLogoComplete);
+            //EventManager.Instance.AddListener(EventId.OnLogoComplete, OnLogoComplete);
             //logo展示
             //UIManager.Instance.OpenWindowSync("Logo");
+            OnLogoComplete();
         }
 
         public override void OnExit()
         {
-            EventManager.Instance.RemoveListener(EventId.OnLogoComplete, OnLogoComplete);
+            //EventManager.Instance.RemoveListener(EventId.OnLogoComplete, OnLogoComplete);
             base.OnExit();
         }
 

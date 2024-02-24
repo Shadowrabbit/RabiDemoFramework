@@ -17,7 +17,6 @@ namespace Rabi
     public class GameManager : BaseMonoSingleTon<GameManager>
     {
         [SerializeField] [LabelText("正式流程")] private bool autoStart;
-        [SerializeField] [LabelText("单元测试")] private bool runTest;
 
         private readonly List<IMonoManager> _managerList = new List<IMonoManager>(); //管理器列表
         //private static GamePrucedureController _fsm; //游戏流程状态机
@@ -25,18 +24,13 @@ namespace Rabi
         private void Awake()
         {
             _managerList.Add(AssetManager.Instance);
-            // _managerList.Add(SceneManager.Instance);
-            // _managerList.Add(ObjectPoolManager.Instance);
-            // _managerList.Add(FsmManager.Instance);
+            //_managerList.Add(SceneManager.Instance);
+            _managerList.Add(ObjectPoolManager.Instance);
+            _managerList.Add(FsmManager.Instance);
             // _managerList.Add(LuaManager.Instance);
-            // _managerList.Add(AudioManager.Instance);
-            // _managerList.Add(InputManager.Instance);
+            //_managerList.Add(AudioManager.Instance);
+            _managerList.Add(InputManager.Instance);
             // _managerList.Add(ActionManager.Instance);
-            if (runTest)
-            {
-                //_managerList.Add(TestManager.Instance);
-            }
-
             foreach (var manager in _managerList)
             {
                 manager.OnInit();
@@ -46,6 +40,9 @@ namespace Rabi
         private void Start()
         {
             DontDestroyOnLoad(this);
+            UIManager.Instance.Init();
+            UIManager.Instance.CloseAllWindow();
+            UIManager.Instance.OpenWindow("MainWindow");
             InitPrucedure();
             if (autoStart)
             {

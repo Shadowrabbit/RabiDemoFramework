@@ -292,6 +292,9 @@
         </e>
         <e p="Resources" t="Include">
           <e p="Atlas" t="Include" />
+          <e p="Battle" t="Include">
+            <e p="Prefab" t="Include" />
+          </e>
           <e p="Config" t="Include">
             <e p="CfgAudio.txt" t="Include" />
             <e p="CfgAudioLayer.txt" t="Include" />
@@ -299,9 +302,11 @@
             <e p="CfgGlobal.txt" t="Include" />
             <e p="CfgUnitType.txt" t="Include" />
           </e>
-          <e p="Prefab" t="Include" />
           <e p="Shader" t="Include">
             <e p="UIEffect.shader" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Example" t="Include" />
           </e>
         </e>
         <e p="Scenes" t="Include" />
@@ -356,6 +361,9 @@
                   <e p="SaveManager.cs" t="Include" />
                   <e p="SaveUtil.cs" t="Include" />
                 </e>
+                <e p="UIManager" t="Include">
+                  <e p="UIManager.cs" t="Include" />
+                </e>
               </e>
               <e p="GameManager.cs" t="Include" />
               <e p="MonoManager" t="Include">
@@ -389,6 +397,7 @@
                 <e p="IMonoManager.cs" t="Include" />
                 <e p="InputManager" t="Include">
                   <e p="InputControls.cs" t="Include" />
+                  <e p="InputManager.cs" t="Include" />
                 </e>
                 <e p="ObjectPoolManager" t="Include">
                   <e p="ObjectPoolManager.cs" t="Include" />
@@ -399,8 +408,50 @@
               </e>
             </e>
           </e>
+          <e p="UI" t="Include">
+            <e p="MainWindow.BindComponents.cs" t="Include" />
+            <e p="MainWindow.cs" t="Include" />
+            <e p="ModeSelectWindow.BindComponents.cs" t="Include" />
+            <e p="ModeSelectWindow.cs" t="Include" />
+          </e>
         </e>
         <e p="Settings" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="CatJson.csproj" t="IncludeRecursive" />
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />

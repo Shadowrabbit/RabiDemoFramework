@@ -2,89 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d03e1bed-eb01-4b4a-822a-1b4772c90531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CameraEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CameraEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CharacterControllerEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CharacterControllerEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ComponentEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ComponentEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DictionaryEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DictionaryEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DotNetEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DotNetEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/GameObjectEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/GameObjectEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/IOEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/IOEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ImageEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ImageEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ListEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ListEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/MathEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/MathEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ReflectionEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ReflectionEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/StringEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/StringEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/TransformEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/TransformEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/UnityExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/UnityExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/CompData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/CompData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/IdGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/IdGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Thing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Thing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingComp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingComp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingWithComps.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingWithComps.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def/FsmDef.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def/FsmDef.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/BaseFsm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/BaseFsm.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/IFsmState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/IFsmState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/FsmManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/FsmManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool/ObjectPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool/ObjectPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjectPoolManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjectPoolManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Asset/UICompConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Asset/UICompConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Editor/Generator/UICompGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UI/UIConfig/Editor/Generator/UICompGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UIBinder/Editor/UIBinderInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UIBinder/Editor/UIBinderInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extensions/UIBinder/UIBinderGlobalSetting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Extensions/UIBinder/UIBinderGlobalSetting.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackAdvisor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackAdvisor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackCannon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackCannon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackChariot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackChariot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackElephant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackElephant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackGeneral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackGeneral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackHorse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackHorse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackSoldier.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/BlackSoldier.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedAdvisor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedAdvisor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedCannon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedCannon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedChariot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedChariot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedElephant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedElephant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedGeneral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedGeneral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedHorse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedHorse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedSoldier.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/RedSoldier.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/TargetPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/TargetPoint.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatJson.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatJson.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOTween.Modules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DOTween.Modules.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="RabiCS" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.BindComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/900DC5CA-37FE-4089-8476-5DCCF7E242DE/8e/dfc60f05/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -95,8 +91,14 @@
       <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureBattleSlg.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureChangeScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureMainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureMainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Extensions/UIBinder/Editor/UIBinderInspector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/UIManager/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/InputManager/InputManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2cnzsgjEV9tKfSquIbEcVamp4fb" />
@@ -106,6 +108,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -122,10 +126,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="276368">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="276368" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -140,13 +144,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708762343937</updated>
-      <workItem from="1708762364871" duration="1364000" />
+      <workItem from="1708762364871" duration="7196000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs</url>
+          <line>40</line>
+          <properties documentPath="C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Scripts\UI\MainWindow.cs" initialLine="40" containingFunctionPresentation="method 'OnClickPlay'">
+            <startOffsets>
+              <option value="1210" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1246" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -13,39 +13,30 @@ MonoBehaviour:
   m_Name: UICompConfig
   m_EditorClassIdentifier: 
   uiCompConfigDataList:
-  - compName: Btn
+  - compName: Button
     protoTemplate: {fileID: 6114557912290487257, guid: 35f34a704e3450d478780f2b0bef1344,
       type: 3}
   - compName: EmptyButton
     protoTemplate: {fileID: 1689770228026051821, guid: 22f325eca5b471e418837b2a8ea147cb,
       type: 3}
-  - compName: LvHorizontal
+  - compName: HListview
     protoTemplate: {fileID: 5352154813673074733, guid: 51c3f4410c400944a9339c81cbfa6d42,
       type: 3}
-  - compName: SlvHorizontal
+  - compName: HStaticListView
     protoTemplate: {fileID: 8463115377787359534, guid: f144453b89384404e864a0b1afe47114,
       type: 3}
-  - compName: Img
+  - compName: Image
     protoTemplate: {fileID: 5140608807409181899, guid: 1f92ee502984b02438cb9383423a954f,
       type: 3}
-  - compName: TransImg
-    protoTemplate: {fileID: 3589035951824732437, guid: b99d43c6921bb8b41a3b0b5fb9204e08,
-      type: 3}
-  - compName: TransTxt
-    protoTemplate: {fileID: 5743221320736698713, guid: 7c63c56a1edd5dc4da0e81cd44bc57de,
-      type: 3}
-  - compName: LvVertical
+  - compName: VListview
     protoTemplate: {fileID: 4598554242115085107, guid: d574e6c1e95cb8549a358aee381272d6,
       type: 3}
-  - compName: SlvVertical
+  - compName: VStaticListView
     protoTemplate: {fileID: 4899606274324854083, guid: afbff3abc242e5646928e9024cdd7cb9,
       type: 3}
-  - compName: TransMp
-    protoTemplate: {fileID: 4080846216048975805, guid: c28ec2a2ae4ea994bb9b4779164b6da9,
-      type: 3}
-  - compName: PlotMp
-    protoTemplate: {fileID: 6170346207024034382, guid: 8dd43b07e771e5340862a0d58141adea,
-      type: 3}
-  - compName: Sc
+  - compName: StateController
     protoTemplate: {fileID: 5787871797709221020, guid: 967aa58183c7e384a87fa83579861173,
+      type: 3}
+  - compName: Text
+    protoTemplate: {fileID: 5743221320736698713, guid: 7c63c56a1edd5dc4da0e81cd44bc57de,
       type: 3}

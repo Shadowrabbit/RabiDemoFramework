@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c288ee51847144fd8492453a93c10be6, type: 3}
   m_Name: UIBinderGlobalSetting
   m_EditorClassIdentifier: 
-  codePath: C:/Users/Administrator/Desktop/RabiDemoFramework/Assets/Extension/UIBinder/Example
+  codePath: C:/Users/ausu/Desktop/RabiDemoFramework/Assets/Scripts/UI
   namespace: Rabi
