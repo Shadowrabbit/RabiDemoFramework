@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 1614149339803403010}
   - component: {fileID: 8966771658388850906}
   - component: {fileID: 8966771658388850907}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UICamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4618722341290769916}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BattleInfoLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2823068965174798602}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: NormalLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4237453881897742775}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AdvancedBattleInfoLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -694,7 +694,7 @@ GameObject:
   - component: {fileID: 3789285087110307246}
   - component: {fileID: 4111527074587463600}
   - component: {fileID: 7750215467041757568}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIRootMainCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8393746019547281359}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BattleLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325315955921367100}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TipLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1826358813437376717}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackgroundLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -876,7 +876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068642619721583535}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PlotLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -947,7 +947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4623555463660524878}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1011,7 +1011,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4027359949442308528}
+  m_Father: {fileID: 5543444525236878566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!223 &3684130351336587214
 Canvas:
@@ -1048,7 +1048,7 @@ GameObject:
   - component: {fileID: 3705331471327658277}
   - component: {fileID: 2121219812038859852}
   - component: {fileID: 324927584514038307}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UnitCurHudRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,23 +1124,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!4 &4027359949442308528
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4878371529554575238}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3587777033497290420}
-  - {fileID: 6429513534140885349}
-  m_Father: {fileID: 5543444525236878566}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4111527074587463600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,27 +1247,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5399923716958863691}
   - {fileID: 1049097631565635029}
   - {fileID: 8199728590912686346}
-  - {fileID: 5399923716958863691}
   m_Father: {fileID: 5543444525236878566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4878371529554575238
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4027359949442308528}
-  m_Layer: 0
-  m_Name: Scene
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &4907157558168395874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,7 +1261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5716120888401019813}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DialogLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1371,7 +1338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6733696375902348170}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TopLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,7 +1400,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4027359949442308528}
+  - {fileID: 6429513534140885349}
+  - {fileID: 3587777033497290420}
   - {fileID: 4623555463660524878}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1505,7 +1473,7 @@ GameObject:
   - component: {fileID: 912906236076809668}
   - component: {fileID: 4940929281226141302}
   - component: {fileID: 6786547399216599758}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ToastHudRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1523,7 +1491,7 @@ GameObject:
   - component: {fileID: 5399923716958863691}
   - component: {fileID: 5537272729027688498}
   - component: {fileID: 6178149844847386037}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1632,7 +1600,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4027359949442308528}
+  m_Father: {fileID: 5543444525236878566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6494387780426832863
 GameObject:
@@ -1890,7 +1858,7 @@ GameObject:
   - component: {fileID: 54833309673544091}
   - component: {fileID: 2159042751171009367}
   - component: {fileID: 4254154315026418017}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DamageHudRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1923,7 +1891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 909311089356217622}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: InfoLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2115,7 +2083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5040877912484825744}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AdvancedInfoLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8445371263214412921}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BattleDialogLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

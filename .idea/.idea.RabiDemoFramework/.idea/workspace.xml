@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d03e1bed-eb01-4b4a-822a-1b4772c90531" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CameraEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CameraEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CharacterControllerEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/CharacterControllerEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ComponentEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ComponentEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DictionaryEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DictionaryEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DotNetEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/DotNetEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/GameObjectEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/GameObjectEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/IOEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/IOEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ImageEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ImageEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ListEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ListEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/MathEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/MathEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ReflectionEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ReflectionEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/StringEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/StringEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/TransformEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/TransformEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/UnityExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/UnityExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/CompData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/CompData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/IdGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/IdGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Thing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Thing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingComp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingComp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingWithComps.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/ThingWithComps.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def/FsmDef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Def/FsmDef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/BaseFsm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/BaseFsm.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/IFsmState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/Fsm/IFsmState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/FsmManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/FsmManager/FsmManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjPool/ObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjectPoolManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/ObjectPoolManager/ObjectPoolManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatJson.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatJson.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTween.Modules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DOTween.Modules.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/GameObjectEx.cs" />
+      <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/UnityExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ListEx.cs" />
+      <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/ImageEx.cs" />
+      <option value="$PROJECT_DIR$/Assets/Extensions/Misc/Runtime/AssetManagerEx.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureBattleSlg.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureChangeScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureMainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureStart.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="2cnzsgjEV9tKfSquIbEcVamp4fb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d03e1bed-eb01-4b4a-822a-1b4772c90531" name="Default Changelist" comment="" />
+      <created>1708762343937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708762343937</updated>
+      <workItem from="1708762364871" duration="1364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

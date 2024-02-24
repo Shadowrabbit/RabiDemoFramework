@@ -47,39 +47,61 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ConfigDef\DefAudioLayer.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\UIMaterialEffect.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\CharacterControllerEx.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\CameraEx.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Def\FsmDef.cs" />
+     <Compile Include="Assets\Scripts\Core\Base\ThingWithComps.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\ActiveStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\ListView\Runtime\ListView.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\SaveManager\SaveUtil.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureMainMenu.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\BaseStateNode.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefUnitType.cs" />
      <Compile Include="Assets\Extensions\UI\EmptyRaycast\Runtime\EmptyRaycast.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\AssetManager\AssetManager.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\InputManager\InputControls.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\IOEx.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\ObjectPoolManager\ObjectPoolManager.cs" />
      <Compile Include="Assets\Scripts\Core\Base\SingleTon\BaseMonoSingleTon.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\TextStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\Receiver\Runtime\LongPressReceiver.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\EffectColorMode.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\SpriteStateNode.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\ListEx.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\ReflectionEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgGlobal.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureChangeScene.cs" />
      <Compile Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime\DialogScreenPositionFixPreview.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Base\BaseGamePrucedure.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\FsmManager.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\EffectPropertyID.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\UIStateController.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\TransformEx.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\DotNetEx.cs" />
      <Compile Include="Assets\Extensions\UI\StaticListView\Runtime\StaticListView.cs" />
      <Compile Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime\DialogScreenPositionFix.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\GameObjectEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgCamp.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Fsm\GamePrucedureController.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefGlobal.cs" />
      <Compile Include="Assets\Scripts\Core\Base\RefPool\IPoolRef.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefCamp.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\TextureStateNode.cs" />
      <Compile Include="Assets\Scripts\Config\CfgAudio.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureBattleSlg.cs" />
+     <Compile Include="Assets\Scripts\Core\Base\Thing.cs" />
      <Compile Include="Assets\Scripts\ConfigDef\DefAudio.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\ConfigManager\ConfigManager.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNodeType.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\MonoManager\IMonoManager.cs" />
      <Compile Include="Assets\Extensions\EngineEx\Camera\CameraSizeFitter.cs" />
+     <Compile Include="Assets\Scripts\Core\Base\ThingComp.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\GrayStateNode.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\AssetManagerEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgAudioLayer.cs" />
+     <Compile Include="Assets\Scripts\Core\Base\CompData.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\UnityExtensions.cs" />
      <Compile Include="Assets\Extensions\UI\BorderPreview\BorderPreview.cs" />
      <Compile Include="Assets\Scripts\Core\Base\Config\CsvReader.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\UIStateControllerSenceView.cs" />
@@ -87,15 +109,22 @@
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\UIEffectMaterialKey.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\GrayComp.cs" />
      <Compile Include="Assets\Extensions\UI\SafeAreaFitter\Runtime\SafeAreaFitter.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\DictionaryEx.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Fsm\BaseFsm.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\StringEx.cs" />
      <Compile Include="Assets\Scripts\Config\CfgUnitType.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\ObjectPoolManager\ObjPool\ObjectPool.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\CombinationStateNode.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\MeshProColorStateNode.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Fsm\IFsmState.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Example\TestWindow.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Runtime\UIBinder.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\EventManager\EventId.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\UIEffectMaterials.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Runtime\BinderRuler.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\MathEx.cs" />
      <Compile Include="Assets\Scripts\Core\Base\RefPool\RefPool.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\ImageEx.cs" />
      <Compile Include="Assets\Scripts\Core\Base\Logger.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Runtime\BindData.cs" />
      <Compile Include="Assets\Extensions\UI\NodeStateController\Runtime\StateNode\ColorStateNode.cs" />
@@ -103,11 +132,15 @@
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\RefPoolManager\RefPoolManager.cs" />
      <Compile Include="Assets\Scripts\Core\Base\SingleTon\BaseSingleTon.cs" />
      <Compile Include="Assets\Extensions\UI\GrayComp\Runtime\MaterialRef.cs" />
+     <Compile Include="Assets\Scripts\Core\Base\IdGenerator.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\SaveManager\SaveManager.cs" />
      <Compile Include="Assets\Scripts\Core\Manager\CommonManager\EventManager\EventManager.cs" />
      <Compile Include="Assets\Extensions\UIBinder\Example\TestWindow.BindComponents.cs" />
+     <Compile Include="Assets\Extensions\Misc\Runtime\ComponentEx.cs" />
+     <Compile Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState\PrucedureStart.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Core\Manager\MonoManager\InputManager" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager" />
      <Folder Include="Assets\Settings" />
      <None Include="Assets\Resources\Config\CfgGlobal.txt" />
      <Folder Include="Assets\Extensions\UI\ListView\Runtime" />
@@ -115,6 +148,7 @@
      <Folder Include="Assets\Scripts\Core\Base" />
      <Folder Include="Assets\Scripts\Core\Manager\CommonManager\RefPoolManager" />
      <Folder Include="Assets\Extensions\Sirenix\Odin Inspector\Assets" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\ObjectPoolManager" />
      <Folder Include="Assets\Extensions\UI\GrayComp\Runtime" />
      <Folder Include="Assets\Extensions\UI\EmptyRaycast" />
      <Folder Include="Assets\Scripts\Config" />
@@ -123,7 +157,9 @@
      <Folder Include="Assets\Extensions\UI\DialogScreenPositionFix" />
      <Folder Include="Assets\Extensions\EngineEx" />
      <Folder Include="Assets\Extensions\UI\DialogScreenPositionFix\Runtime" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Def" />
      <Folder Include="Assets\Scripts\Core\Base\Config" />
+     <Folder Include="Assets\Extensions\Misc" />
      <Folder Include="Assets\Resources\Atlas" />
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
@@ -134,6 +170,7 @@
      <Folder Include="Assets\Scripts\Core\Manager\CommonManager" />
      <Folder Include="Assets\Extensions\UI\NodeStateController" />
      <None Include="Assets\Resources\Shader\UIEffect.shader" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\GameState" />
      <Folder Include="Assets\Scripts\ConfigDef" />
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
      <Folder Include="Assets\Extensions\UIBinder\Runtime" />
@@ -145,10 +182,12 @@
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.xml" />
      <Folder Include="Assets\Extensions\Sirenix\Odin Inspector" />
      <None Include="Assets\Resources\Config\CfgAudioLayer.txt" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Base" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Extensions\Sirenix\Odin Inspector\Modules" />
      <Folder Include="Assets\Extensions\UI\GrayComp" />
      <Folder Include="Assets\Extensions\UIBinder\Example" />
+     <Folder Include="Assets\Extensions\Misc\Runtime" />
      <Folder Include="Assets\Extensions\UI\Receiver\Runtime" />
      <None Include="Assets\Resources\Config\CfgAudio.txt" />
      <Folder Include="Assets\Scripts\Core\Manager\CommonManager\EventManager" />
@@ -173,8 +212,11 @@
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
      <Folder Include="Assets\Scripts\Core" />
      <Folder Include="Assets\Extensions\UI\UIConfig" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\ObjectPoolManager\ObjPool" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure\Fsm" />
      <Folder Include="Assets\Extensions\Sirenix\Assemblies\NoEmitAndNoEditor" />
      <Folder Include="Assets\Extensions\DOTween" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\FsmManager\Fsm" />
      <Folder Include="Assets\Extensions\Sirenix\Assemblies" />
      <Folder Include="Assets\Extensions\UI\Receiver" />
      <Folder Include="Assets\Extensions\UI\SafeAreaFitter" />
@@ -185,6 +227,7 @@
      <Folder Include="Assets\Extensions\EngineEx\Camera" />
      <Folder Include="Assets\Extensions\Sirenix" />
      <None Include="Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.xml" />
+     <Folder Include="Assets\Scripts\Core\Manager\MonoManager\GamePrucedure" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -435,28 +478,28 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\DOTween\DOTween.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>D:\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Assets\Extensions\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -834,112 +877,112 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem.ForUI">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="PPv2URPConverters">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>D:\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     <HintPath>C:\Users\ausu\Desktop\RabiDemoFramework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
