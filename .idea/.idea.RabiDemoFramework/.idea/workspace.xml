@@ -5,41 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03e1bed-eb01-4b4a-822a-1b4772c90531" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureLevel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RabiDemoFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackAdvisor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackAdvisor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackCannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackCannon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackChariot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackChariot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackElephant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackElephant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackGeneral.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackGeneral.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackHorse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackHorse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/BlackSoldier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/BlackSoldier.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedAdvisor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedAdvisor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedCannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedCannon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedChariot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedChariot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedElephant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedElephant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedGeneral.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedGeneral.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedHorse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedHorse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Battle/RedSoldier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Battle/RedSoldier.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config/CfgCamp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Config/CfgCamp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config/CfgUnitType.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Config/CfgUnitType.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartUp.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Config/CfgUnitType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Config/CfgUnitType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConfigDef/DefCamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConfigDef/DefCamp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConfigDef/DefUnitType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConfigDef/DefUnitType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Config/CsvReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Base/Config/CsvReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/ConfigManager/ConfigManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/CommonManager/ConfigManager/ConfigManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AssetManager/AssetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AssetManager/AssetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureBattleSlg.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureBattleSlg.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureChangeScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureChangeScene.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabiConfig/xlsx/Battle/Unit.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/RabiConfig/xlsx/Battle/Unit.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabiConfig/xlsx/manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RabiConfig/xlsx/manifest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatJson.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatJson.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTween.Modules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DOTween.Modules.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.CompatibilityLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sirenix.OdinInspector.Modules.UnityMathematics.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="RabiCS" />
+        <option value="RabiCs" />
       </list>
     </option>
   </component>
@@ -65,11 +54,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AudioManager/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE91CA7E-8F3B-4648-90AB-1D48B84E94EA/6b/c162acdc/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainWindow.BindComponents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A3B02D6F-9B49-4355-B946-095EA1F25C54/6e/d3533154/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AudioManager/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/900DC5CA-37FE-4089-8476-5DCCF7E242DE/8e/dfc60f05/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -100,13 +87,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Config/CfgUnitType.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/AssetManager/AssetManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/UnitInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/Unit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/Base/Config/CsvReader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/MapDef.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Battle/MapManager/GridInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Battle/BattleManager/BattleManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ModeSelectWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/Manager/MonoManager/GamePrucedure/GameState/PrucedureLevel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2cnzsgjEV9tKfSquIbEcVamp4fb" />
@@ -123,6 +111,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -134,10 +123,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="276368">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="276368" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -153,8 +142,12 @@
       <option name="presentableId" value="Default" />
       <updated>1708762343937</updated>
       <workItem from="1708762364871" duration="21974000" />
+      <workItem from="1708925054196" duration="1342000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -168,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

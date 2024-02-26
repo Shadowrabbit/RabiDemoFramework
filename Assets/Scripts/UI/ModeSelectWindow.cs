@@ -7,6 +7,7 @@
 //    *(__\_\        @Copyright  Copyright (c) 2024, Shadowrabbit
 // ******************************************************************
 
+using UnityEditor.MPE;
 using UnityEngine;
 
 namespace Rabi
@@ -36,8 +37,9 @@ namespace Rabi
 
         private static void OnClickAI()
         {
-            BattleManager.Instance.Enter(1);
             UIManager.Instance.CloseAllWindow();
+            var fsm = FsmManager.Instance.GetFsm<GamePrucedureController>(FsmDef.GamePrucedure);
+            fsm.ChangeState<PrucedureLevel>(false, "虚假的关卡id");
         }
 
         private static void OnClickPieces()

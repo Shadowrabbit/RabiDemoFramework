@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ausu\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ausu\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_RabiDemoFramework.-336921835.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ausu\Desktop\RabiDemoFramework" t="IncludeRecursive">
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_RabiDemoFramework.537341760.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Administrator\Desktop\RabiDemoFramework" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -403,8 +403,7 @@
                     <e p="GamePrucedureController.cs" t="Include" />
                   </e>
                   <e p="GameState" t="Include">
-                    <e p="PrucedureBattleSlg.cs" t="Include" />
-                    <e p="PrucedureChangeScene.cs" t="Include" />
+                    <e p="PrucedureLevel.cs" t="Include" />
                     <e p="PrucedureMainMenu.cs" t="Include" />
                     <e p="PrucedureStart.cs" t="Include" />
                   </e>
